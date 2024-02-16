@@ -6,7 +6,7 @@ import router from "./HeroDBRouting.js";
 const app = express();
 
 const corsOption = {
-  origin: "https://memorial-soldier.netlify.app/",
+  origin: "https://memorial-soldier.netlify.app",
   methods: "GET ,POST ,PUT ,DELETE",
   credentials: true,
 };
