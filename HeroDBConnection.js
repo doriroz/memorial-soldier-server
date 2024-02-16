@@ -6,7 +6,7 @@ import router from "./HeroDBRouting.js";
 const app = express();
 
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "https://memorial-soldier.netlify.app/",
   methods: "GET ,POST ,PUT ,DELETE",
   credentials: true,
 };
