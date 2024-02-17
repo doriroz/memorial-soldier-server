@@ -11,7 +11,7 @@ router.get("/notes", async (req, res) => {
   }
 });
 
-router.post("/notes/addnote", async (req, res) => {
+router.post("/notes", async (req, res) => {
   const reqData = req.body;
   console.log(reqData);
 
